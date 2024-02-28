@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="src/styles/main.css">
+    <meta name="description" content="Sorteador de números da Loteria (Caixa Econômica) online. Gere sorteios de forma fácil e rápida.">
+    <meta name="keywords" content="Sorteador, Loteria, Caixa Econômica, Números, Sorteios">
+    <title>Sorteador Loteria (Caixa Econômica)</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Sorteador Loteria (Caixa Econômica)</h1>
+        </div>
+        <div class="jogos" id="jogos"></div>
+        <div class="middle-div">
+            <h2>Números do Sorteio</h2>
+            <div class="controls">
+                <label for="qtd-sorteios">Quantidade de Sorteios:</label>
+                <div class="input-container">
+                    <input type="number" id="qtd-sorteios" min="1" value="1">
+                    <button id="gerar-sorteios">Gerar Sorteios</button>
+                    <button id="limpar-sorteios">Limpar</button>
+                </div>
+            </div>
+            <div id="lista-sorteio-gerado"></div>
+            <div class="centralize">
+                <ul id="lista-numeros"></ul>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="src/scripts/main.js"></script>
+</body>
+
+</html>
