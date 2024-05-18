@@ -1,4 +1,4 @@
-const apiEstatisticas = 'https://resultados-loteria-api.vercel.app/estatisticas-{nmJogo}';
+const apiEstatisticas = 'https://resultados-loteria-api.vercel.app/api/lottery-results/statistical/{nmJogo}';
 
 function getDadosEstatisticos(nmJogo) {
     const endpoint = getEndpoint(apiEstatisticas, nmJogo);
