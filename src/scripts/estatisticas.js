@@ -34,7 +34,7 @@ class Estatisticas {
 
     gerarEstatisticas(dadosEstatisticos){
         for(let i = this.jogo.nmMin; i <= this.jogo.nmMax; i++){
-            this.estatisticas[i] = dadosEstatisticos[i] ? dadosEstatisticos[1] : this.getNumero(i);
+            this.estatisticas[i] = dadosEstatisticos.data[0].statistical[i] ? dadosEstatisticos.data[0].statistical[i] : this.getNumero(i);
         }
     }
 
