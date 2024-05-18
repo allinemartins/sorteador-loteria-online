@@ -9,7 +9,7 @@ const jogos = new Jogos();
 
 // Aplicando o tema padrão ao carregar a página
 applyElementJogos();
-changeTheme('lotofacil');
+changeTheme('lotoFacil');
 applyEvents();
 
 function applyElementJogos() {
@@ -90,12 +90,12 @@ function createInfoElement(numero, dadosEstatisticos) {
     if(dadosEstatisticos.getHaveDados()){
         const estatisticas = dadosEstatisticos.getEstatisticasNumero(numero);
         element += `<span class="info-detalhes">
-        <b>Vezes sorteadas:</b><span class="info-detalhes-numero"> ${estatisticas.sorteado}</span><br/>
-        <b>Atrasos em sorteios:</b><span class="info-detalhes-numero"> ${estatisticas.atrasado}</span><br/>
-        <b>Maior Intervalo:</b> <span class="info-detalhes-numero">${estatisticas.maiorGape}</span><br/>
-        <b>Maior Frequência:</b> <span class="info-detalhes-numero">${estatisticas.maiorFrequencia}</span><br/>
-        <b>Último Sorteio:</b> <span class="info-detalhes-numero">${estatisticas.ultimoSorteio}</span><br/>
-        <b>Última Frequência:</b><span class="info-detalhes-numero"> ${estatisticas.ultimaFrequencia}</span><br/>
+        <b>Vezes sorteadas:</b><span class="info-detalhes-numero"> ${estatisticas.draw}</span><br/>
+        <b>Atrasos em sorteios:</b><span class="info-detalhes-numero"> ${estatisticas.delayed}</span><br/>
+        <b>Maior Intervalo:</b> <span class="info-detalhes-numero">${estatisticas.largestGap}</span><br/>
+        <b>Maior Frequência:</b> <span class="info-detalhes-numero">${estatisticas.largestFrequency}</span><br/>
+        <b>Último Sorteio:</b> <span class="info-detalhes-numero">${estatisticas.lastDraw}</span><br/>
+        <b>Última Frequência:</b><span class="info-detalhes-numero"> ${estatisticas.lastFrequency}</span><br/>
         </span>`
     }
     return element;

@@ -40,12 +40,12 @@ class Estatisticas {
 
     getNumero(){
         const numero = {
-            sorteado: 0,
-            atrasado: 0,
-            ultimoSorteio: 0,
-            maiorGape: 0,
-            maiorFrequencia: 0,
-            ultimaFrequencia: 0
+            draw: 0,
+            delayed: 0,
+            lastDraw: 0,
+            largestGap: 0,
+            largestFrequency: 0,
+            lastFrequency: 0
         }
         return numero;
     }

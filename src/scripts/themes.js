@@ -28,12 +28,12 @@ const themes = {
         '--text-color': '#000000',
         '--cor-destaque': ''
     },
-    megasena: {
+    megaSena: {
         '--bg-color': '#8fcbb3',
         '--text-color': '#08140f',
         '--cor-destaque': '#209869'
     },
-    lotofacil: {
+    lotoFacil: {
         '--bg-color': '#c87fc3',
         '--text-color': '#54044e',
         '--cor-destaque': '#930089'

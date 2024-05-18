@@ -14,13 +14,13 @@ class Jogos {
 }
 
 const jogos = {    
-    megasena: {
+    megaSena: {
         'title': 'mega-sena',
         'nmMin': 1,
         'nmMax': 60,
         'sortear': 6
     },
-    lotofacil: {
+    lotoFacil: {
         'title': 'lotofácil',
         'nmMin': 1,
         'nmMax': 25,

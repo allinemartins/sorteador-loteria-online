@@ -127,12 +127,12 @@ h3.nome-loteria {
     background: url(https://loterias.caixa.gov.br/Style%20Library/images/icos_loterias.png) no-repeat;
 }
 
-h3.megasena {
+h3.megaSena {
     background-position: left top;
     color: #209869;
 }
 
-h3.lotofacil {
+h3.lotoFacil {
     background-position: left -45px;
     color: #930089;
 }
